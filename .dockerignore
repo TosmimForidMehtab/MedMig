@@ -1,0 +1,40 @@
+# VCS
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+
+# Env and local config
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Runtime/generated data
+models/
+uploads/
+documents/
+outputs/
+exports/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
